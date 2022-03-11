@@ -17,13 +17,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-.hero-c {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.hero-section p,
+h1 {
+  color: white;
 }
 #mouse-logo {
-  width: 30px;
+  width: 20px;
 }
 #delani-logo {
   width: 50px;
