@@ -16,14 +16,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .hero-section p,
 h1 {
   color: white;
+  padding: 10px;
 }
 #mouse-logo {
   width: 20px;
+  margin-top: 200px;
 }
 #delani-logo {
   width: 50px;
+  margin-bottom: 10px;
 }
