@@ -128,7 +128,35 @@ footer {
   align-items: center;
 }
 .footer-txt {
-  isplay: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
+}
+.ptag {
+  display: none;
+}
+/* jquery */
+.services-text {
+  display: none;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+.development-text {
+  display: none;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+.product-text {
+  display: none;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+.icons-func h4 {
+  font-weight: bold;
 }
