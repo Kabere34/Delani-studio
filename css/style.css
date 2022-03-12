@@ -60,22 +60,23 @@ h1 {
 p {
   padding: 5px;
 }
-.service-icons {
+.services-icons h2 {
   display: flex;
-  flex-direction: row;
-  flex: 1;
+  justify-content: center;
 }
-.service-icons h2 {
-  align-self: center;
-}
+
 .icons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
   margin-top: 50px;
 }
-
+.icons-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .icons img {
   max-width: 100;
 }
@@ -83,4 +84,31 @@ p {
 .portfolio img {
   width: 20%;
   padding: 10px;
+  margin-left: ;
+}
+.port1,
+.port2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact-bg {
+  background-image: url(/images/backgrounds/c_image.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+form input {
+  margin: 20px;
+  padding: 0 30px;
 }
