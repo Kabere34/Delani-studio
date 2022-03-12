@@ -69,7 +69,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .icons-img {
   display: flex;
@@ -101,14 +101,20 @@ p {
 h3 {
   display: flex;
   justify-content: center;
+  color: white;
 }
 form {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 form input {
-  margin: 20px;
-  padding: 0 30px;
+  margin: 10px;
+  padding: 0 50px;
+  background: transparent;
+  border: 1px solid white;
+}
+#mail {
+  width: 580px;
+  height: 200px;
 }
