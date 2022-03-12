@@ -135,8 +135,23 @@ footer {
 .ptag {
   display: none;
 }
+
+/* try */
+.development-text,
+.design-text,
+.product-text {
+  display: none;
+}
+.services-icons {
+  display: flex;
+  flex-direction: column;
+}
+.icons-images {
+  display: flex;
+  justify-content: space-evenly;
+}
 /* jquery */
-.services-text {
+/* .services-text {
   display: none;
   flex-direction: column;
   width: 30%;
@@ -160,3 +175,6 @@ footer {
 .icons-func h4 {
   font-weight: bold;
 }
+.icons-func {
+  display: flex;
+} */
