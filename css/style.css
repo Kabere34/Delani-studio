@@ -79,3 +79,8 @@ p {
 .icons img {
   max-width: 100;
 }
+
+.portfolio img {
+  width: 20%;
+  padding: 10px;
+}
