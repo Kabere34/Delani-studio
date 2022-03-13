@@ -142,6 +142,15 @@ footer {
 .product-text {
   display: none;
 }
+.design-text span {
+  margin-bottom: 10px;
+}
+.design-content,
+.development-content,
+.product-content {
+  width: 30%;
+  text-align: center;
+}
 .services-icons {
   display: flex;
   flex-direction: column;
@@ -150,31 +159,12 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
-/* jquery */
-/* .services-text {
-  display: none;
-  flex-direction: column;
-  width: 30%;
-  margin: 20px;
-  text-align: center;
-}
-.development-text {
-  display: none;
-  flex-direction: column;
-  width: 30%;
-  margin: 20px;
-  text-align: center;
-}
-.product-text {
-  display: none;
-  flex-direction: column;
-  width: 30%;
-  margin: 20px;
-  text-align: center;
-}
-.icons-func h4 {
-  font-weight: bold;
-}
-.icons-func {
-  display: flex;
+/* .hoverdiv {
+  width: 20%;
+  width: fit-content;
+  background-color: blue;
 } */
+.hoverdiv {
+  display: none;
+  background-color: blue;
+}
