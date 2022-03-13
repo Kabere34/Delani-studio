@@ -10,8 +10,7 @@ body {
   background-image: url(/images/backgrounds/h_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
-  height: 700px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,7 +48,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
-  height: 300px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -63,6 +62,7 @@ p {
 .services-icons h2 {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .icons {
@@ -92,7 +92,10 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20px;
+  padding: 5px;
+}
+.portfolio h3 {
+  margin-top: 20px;
 }
 .port1 div,
 .port2 div {
@@ -102,7 +105,14 @@ p {
   padding: 0 10px;
   max-width: 100%;
 }
-.disp1 {
+.disp1,
+.disp2,
+.disp3,
+.disp4,
+.disp5,
+.disp6,
+.disp7,
+.disp8 {
   background-color: white;
   display: none;
   position: relative;
@@ -121,9 +131,12 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h3 {
+
+.contact-bg h3 {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
+  color: white;
 }
 form {
   display: flex;
@@ -148,6 +161,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 .footer-txt {
   display: flex;

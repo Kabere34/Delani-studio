@@ -42,10 +42,67 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $(".hover-cnt").mouseover(function () {
+  $(".hover-cnt1").mouseover(function () {
     $(".disp1").show(1200);
-    $(".hover-cnt").mouseleave(function () {
+    $(".hover-cnt1").mouseleave(function () {
       $(".disp1").hide(1200);
+    });
+  });
+});
+$(document).ready(function () {
+  $(".hover-cnt2").mouseover(function () {
+    $(".disp2").show(1200);
+    $(".hover-cnt2").mouseleave(function () {
+      $(".disp2").hide(1200);
+    });
+  });
+});
+
+$(document).ready(function () {
+  $(".hover-cnt3").mouseover(function () {
+    $(".disp3").show(1200);
+    $(".hover-cnt3").mouseleave(function () {
+      $(".disp3").hide(1200);
+    });
+  });
+});
+$(document).ready(function () {
+  $(".hover-cnt4").mouseover(function () {
+    $(".disp4").show(1200);
+    $(".hover-cnt4").mouseleave(function () {
+      $(".disp4").hide(1200);
+    });
+  });
+});
+$(document).ready(function () {
+  $(".hover-cnt5").mouseover(function () {
+    $(".disp5").show(1200);
+    $(".hover-cnt5").mouseleave(function () {
+      $(".disp5").hide(1200);
+    });
+  });
+});
+$(document).ready(function () {
+  $(".hover-cnt6").mouseover(function () {
+    $(".disp6").show(1200);
+    $(".hover-cnt6").mouseleave(function () {
+      $(".disp6").hide(1200);
+    });
+  });
+});
+$(document).ready(function () {
+  $(".hover-cnt7").mouseover(function () {
+    $(".disp7").show(1200);
+    $(".hover-cnt7").mouseleave(function () {
+      $(".disp7").hide(1200);
+    });
+  });
+});
+$(document).ready(function () {
+  $(".hover-cnt8").mouseover(function () {
+    $(".disp8").show(1200);
+    $(".hover-cnt8").mouseleave(function () {
+      $(".disp8").hide(1200);
     });
   });
 });
