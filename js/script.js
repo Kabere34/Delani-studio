@@ -106,3 +106,29 @@ $(document).ready(function () {
     });
   });
 });
+$(document).ready(function () {
+  $("form").submit(function () {
+    alert("Submitted");
+  });
+});
+
+function submitForm() {
+  let userName = document.getElementById("name").value;
+  let email = document.getElementById("mail").value;
+  let input = document.getElementById("message").value;
+
+  if (userName !== "" && (email !== "") & (input !== "")) {
+    alert(
+      "Hello" +
+        userName +
+        ", Thank you for conatcting us. We will get back to you soon."
+    );
+    var userName = "";
+    var email = "";
+    var input = "";
+  } else {
+    alert("Please make sure all fields have correct inputs.");
+
+    reset();
+  }
+}
