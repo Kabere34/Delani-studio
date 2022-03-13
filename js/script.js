@@ -42,20 +42,10 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $("#one").click(function () {
-    $("#one").hide(0, function () {
-      $(".hoverdiv").show(0);
+  $(".hover-cnt").mouseover(function () {
+    $(".disp1").show(1200);
+    $(".hover-cnt").mouseleave(function () {
+      $(".disp1").hide(1200);
     });
   });
 });
-
-// $(document).ready(function () {
-//   $("#one").hover(
-//     function () {
-//       $(this).css("background-color", "red");
-//     },
-//     function () {
-//       $(this).css("background-color", "green");
-//     }
-//   );
-// });
