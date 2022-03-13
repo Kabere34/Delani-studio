@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 .hero-section {
-  background-image: url(/images/backgrounds/h_img.jpg);
+  background-image: url(images/backgrounds/h_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -46,7 +46,7 @@ h1 {
   margin: 19px 20px;
 }
 .services-content {
-  background-image: url(/images/backgrounds/s_image.jpg);
+  background-image: url(images/backgrounds/s_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
@@ -128,7 +128,7 @@ p {
 }
 
 .contact-bg {
-  background-image: url(/images/backgrounds/c_image.jpg);
+  background-image: url(images/backgrounds/c_image.jpg);
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
