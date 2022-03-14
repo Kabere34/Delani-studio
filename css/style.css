@@ -46,7 +46,7 @@ h1 {
   margin: 19px 20px;
 }
 .services-content {
-  background-image: url(images/backgrounds/s_image.jpg);
+  background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -128,7 +128,7 @@ p {
 }
 
 .contact-bg {
-  background-image: url(https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg);
+  background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
