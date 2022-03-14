@@ -151,6 +151,10 @@ form input {
   background: transparent;
   border: 1px solid white;
 }
+#name::placeholder {
+  color: white;
+}
+
 #mail {
   width: 580px;
   height: 200px;
