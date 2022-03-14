@@ -99,10 +99,7 @@ p {
 .portfolio h3 {
   margin-top: 20px;
 }
-.port1 div,
-.port2 div {
-  /* width: 20%; */
-}
+
 .portfolio img {
   padding: 0 10px;
   max-width: 100%;
@@ -154,13 +151,19 @@ form input {
 #name::placeholder {
   color: white;
 }
+#email::placeholder {
+  color: white;
+}
 
-#mail {
-  width: 580px;
-  height: 200px;
+textarea {
+  background: transparent;
+  border: 1px solid white;
 }
 .footer-icons img {
   width: 55px;
+}
+#message::placeholder {
+  color: white;
 }
 footer {
   display: flex;
